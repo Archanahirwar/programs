@@ -1,3 +1,7 @@
+Node{
+  int data;
+  Node *left,*right;
+};
 void morrisTraversal(Node *root){
   if(root==NULL){
     return;
